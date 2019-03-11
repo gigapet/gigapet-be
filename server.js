@@ -7,7 +7,5 @@ server.use(express.json())
 server.use(cors());
 
 server.get('/hello', (req,res) => {
-    res.send(
-        "HELLO"
-    )
+    res.status(200).json("Hello");
 })
