@@ -9,3 +9,5 @@ server.use(cors());
 server.get('/hello', (req,res) => {
     console.log("hello")
 })
+
+module.exports = server;
